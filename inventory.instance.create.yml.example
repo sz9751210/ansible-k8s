@@ -1,0 +1,11 @@
+[localhost]
+localhost internal_ip=127.0.0.1
+
+[creation]
+#{{ hostname }} internal_ip={{ IP }} zone={{ zone }}
+
+[k8s_master]
+#{{ hostname }} internal_ip={{ IP }} zone={{ zone }}
+
+[k8s_slave]
+#{{ hostname }} internal_ip={{ IP }} zone={{ zone }}

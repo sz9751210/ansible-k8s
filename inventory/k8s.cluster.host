@@ -1,0 +1,9 @@
+[localhost]
+localhost internal_ip=127.0.0.1
+
+[k8s_master]
+master          internal_ip=10.128.0.41 zone=us-central1-b
+
+[k8s_slave]
+node1           internal_ip=10.128.0.42 zone=us-central1-b
+node2           internal_ip=10.128.0.43 zone=us-central1-b
